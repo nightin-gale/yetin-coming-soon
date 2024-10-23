@@ -14,7 +14,7 @@ export default function Home() {
         </p>
         <div className="inline-block mt-6">
           <p className="text-2xl CursorEffect text-center font-mono">
-            Coming soon 
+            Coming soon
           </p>
         </div>
       </div>
@@ -36,7 +36,26 @@ export default function Home() {
             A job board for students in UK.
           </p>
         </a>
+
+        <a
+          href="https://book.yetin.net"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            book.yetin.net{" "}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Guide for self study programming
+          </p>
+        </a>
       </div>
+
+
     </main>
   );
 }
